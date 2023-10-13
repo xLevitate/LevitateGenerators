@@ -1,0 +1,34 @@
+messages:
+  no-balance: "<red>You do not have enough money to do this (%price% required)."
+  upgrade: "<green>You have upgraded your generator."
+  upgrade-other: "<red>You cannot upgrade someone else's generator."
+  break-other: "<red>You cannot break someone else's generator."
+  max-tier: "<red>You have already reached the final tier."
+
+settings:
+  # Allow player's to break generators from other players
+  break-other: false
+
+generatorTypes:
+  1:
+    generatorBlock: REDSTONE_LAMP
+    dropItem: REDSTONE
+    dropInterval: 20
+    dropAmount: 1
+    tier: 1
+    upgradeCost: 100
+    name: "<red>Redstone Generator"
+    lore:
+      - "<green>this is a redstone generator"
+      - "yes"
+  2:
+    generatorBlock: REDSTONE_BLOCK
+    dropItem: REDSTONE_BLOCK
+    dropInterval: 20
+    dropAmount: 1
+    tier: 2
+    upgradeCost: 200
+    name: "<red>Redstone Block Generator"
+    lore:
+      - "this is a redstone block generator"
+      - "yes"

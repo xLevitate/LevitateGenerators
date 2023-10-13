@@ -1,0 +1,5 @@
+name: LevitateGenerators
+version: '${version}'
+main: me.levitate.levitategenerators.LevitateGenerators
+api-version: '1.20'
+depend: [Vault]
